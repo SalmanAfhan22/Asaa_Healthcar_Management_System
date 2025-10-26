@@ -1,0 +1,59 @@
+[2025-10-26 15:45:28] Form submitted
+POST: Array
+(
+    [book_appointment] => 1
+    [doctor_id] => 24
+    [appointment_date] => 2025-10-26
+    [time_slot] => 20:00:00
+    [notes] => Testing
+)
+
+Exception: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '24-2025-10-26-20:00:00' for key 'unique_appointment'
+[2025-10-26 15:45:45] Form submitted
+POST: Array
+(
+    [book_appointment] => 1
+    [doctor_id] => 24
+    [appointment_date] => 2025-10-28
+    [time_slot] => 18:00:00
+    [notes] => Tetsing
+)
+
+Appointment created: ID 19
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=19
+[2025-10-26 15:55:49] Form submitted
+POST: Array
+(
+    [book_appointment] => 1
+    [doctor_id] => 25
+    [appointment_date] => 2025-10-28
+    [time_slot] => 17:00:00
+    [notes] => Testing redirection to payhere
+)
+
+Appointment created: ID 20
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=20
+[2025-10-26 16:07:46] Form submitted
+POST: Array
+(
+    [book_appointment] => 1
+    [doctor_id] => 26
+    [appointment_date] => 2025-10-27
+    [time_slot] => 17:00:00
+    [notes] => 
+)
+
+Appointment created: ID 21
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=21
+[2025-10-26 17:46:43] Form submitted
+POST: Array
+(
+    [book_appointment] => 1
+    [doctor_id] => 25
+    [appointment_date] => 2025-10-27
+    [time_slot] => 13:00:00
+    [notes] => 
+)
+
+Appointment created: ID 22
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=22

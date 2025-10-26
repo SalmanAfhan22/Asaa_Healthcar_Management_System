@@ -1,0 +1,200 @@
+Form submitted at: 2025-10-26 15:30:57
+POST data: Array
+(
+    [csrf_token] => 497ce05d14dbd0f7e190ba3617cb96be2bd3d23d4979c55ff26cabe8ab9dd6b2
+    [book_appointment] => 1
+    [specialization] => 3
+    [doctor_id] => 24
+    [appointment_date] => 2025-10-26
+    [time_slot] => 20:00:00
+    [notes] => testing
+)
+
+Session user_id: 38
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 15
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 15
+Redirecting to: ../payments/pay.php?id=15
+Form submitted at: 2025-10-26 15:34:18
+POST data: Array
+(
+    [csrf_token] => 497ce05d14dbd0f7e190ba3617cb96be2bd3d23d4979c55ff26cabe8ab9dd6b2
+    [book_appointment] => 1
+    [specialization] => 3
+    [doctor_id] => 24
+    [appointment_date] => 2025-10-26
+    [time_slot] => 21:00:00
+    [notes] => Testing
+)
+
+Session user_id: 38
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 16
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 16
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=16
+Form submitted at: 2025-10-26 15:36:22
+POST data: Array
+(
+    [csrf_token] => a37626a0d7d5e6871a8435eafd3d10a3cad5518f55436bd2048eb0d8b98dc856
+    [book_appointment] => 1
+    [specialization] => 5
+    [doctor_id] => 26
+    [appointment_date] => 2025-10-26
+    [time_slot] => 21:00:00
+    [notes] => Testing
+)
+
+Session user_id: 38
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 17
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 17
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=17
+Form submitted at: 2025-10-26 18:02:31
+POST data: Array
+(
+    [csrf_token] => 350862c533ee469ac4c597b7bc720e8966a154b876e5e1b36f04eceae502e2b7
+    [book_appointment] => 1
+    [specialization] => 1
+    [doctor_id] => 22
+    [appointment_date] => 2025-10-28
+    [time_slot] => 09:00:00
+    [notes] => Test
+)
+
+Session user_id: 35
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 23
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 23
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=23
+Form submitted at: 2025-10-26 18:12:23
+POST data: Array
+(
+    [csrf_token] => 350862c533ee469ac4c597b7bc720e8966a154b876e5e1b36f04eceae502e2b7
+    [book_appointment] => 1
+    [specialization] => 4
+    [doctor_id] => 25
+    [appointment_date] => 2025-10-29
+    [time_slot] => 14:00:00
+    [notes] => 
+)
+
+Session user_id: 35
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 24
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 24
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=24
+Form submitted at: 2025-10-26 18:36:21
+POST data: Array
+(
+    [csrf_token] => ff004397594ddaecb7613ac0bec3acf5099f002428ef8a67749b1a31f12515d4
+    [book_appointment] => 1
+    [specialization] => 2
+    [doctor_id] => 23
+    [appointment_date] => 2025-10-27
+    [time_slot] => 21:00:00
+    [notes] => Zoom Test
+)
+
+Session user_id: 38
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 25
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 25
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=25
+Form submitted at: 2025-10-26 19:56:01
+POST data: Array
+(
+    [csrf_token] => 350862c533ee469ac4c597b7bc720e8966a154b876e5e1b36f04eceae502e2b7
+    [book_appointment] => 1
+    [specialization] => 2
+    [doctor_id] => 23
+    [appointment_date] => 2025-10-28
+    [time_slot] => 08:00:00
+    [notes] => Payhere Test
+)
+
+Session user_id: 35
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 26
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 26
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=26
+Form submitted at: 2025-10-26 20:15:35
+POST data: Array
+(
+    [csrf_token] => 350862c533ee469ac4c597b7bc720e8966a154b876e5e1b36f04eceae502e2b7
+    [book_appointment] => 1
+    [specialization] => 4
+    [doctor_id] => 25
+    [appointment_date] => 2025-10-27
+    [time_slot] => 14:00:00
+    [notes] => 
+)
+
+Session user_id: 35
+CSRF validation passed
+All required fields present
+About to call bookAppointment...
+bookAppointment result: Array
+(
+    [success] => 1
+    [appointment_id] => 27
+    [message] => Appointment booked successfully
+)
+
+Booking successful! Appointment ID: 27
+Redirecting to: http://localhost/asaa_healthcare/views/payments/pay.php?id=27
